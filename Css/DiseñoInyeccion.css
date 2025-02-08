@@ -1,0 +1,120 @@
+/*General*/
+*{
+	margin: 0px;/*Esta propiedad declara el margen de un elemento. El margen es el espacio que hay alrededor de la caja.*/
+	padding: 0px;/*Esta propiedad declara el relleno de un elemento. El relleno es el espacio entre el contenido del elemento y los límites de su caja.*/
+	color: #141414;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+h1{
+	font-size: 2rem;
+	font-weight: 700;
+}
+h2{
+	font-size: 1.2rem;
+}
+h3{
+	font-size: 0.5rem;
+}
+section{
+	background: #F6F7EB;
+	border-bottom: 1px solid #92B4F4;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+section div.contenido{
+	width: auto;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*General*/
+
+/*header*/
+header{
+	background-color: #393E41;/* Esta propiedad asigna un fondo de color a un elemento.*/
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+div.Logo{
+	text-align: center;
+}
+/*header*/
+
+/*FOOTER*/
+.Pief{
+  background-color: #393E41;/* Esta propiedad asigna un fondo de color a un elemento.*/
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+.Pief p{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.Pief img{
+	 width: 40%;
+    height: auto;
+    border: 2px;
+    position: relative;
+}
+.Izquierda{
+	float: left;
+}
+.Derecha{
+	float: right;
+}
+.FlotanteTexto{
+	width: 90%;
+}
+.FlotanteImagen{
+	width: 10%;
+}
+/*FOOTER*/
+
+/*div class="contenido"*/
+.izq {
+	float: left;
+}
+.der {
+	float: right;
+}
+.floTex {
+	width: 55%;
+}
+.floImg {
+	width: 45%;
+}
+.cen{
+	width: 80%;
+	text-align: center;
+}
+/*div class="contenido"*/
+
+
+
+
+/*Boton para regresar*/
+#bot {
+	text-decoration:none;
+	font-weight: 600;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-bottom: 18px;
+	padding-left: 17px;
+	padding-right: 17px;
+	background-color: #F49097;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 35px;
+}
+#boton:hover {
+	cursor: pointer;
+	background: #EE7674;
+}
+/*Boton para regresar*/
