@@ -1,0 +1,246 @@
+/*General*/
+*{
+	margin: 0px;/*Esta propiedad declara el margen de un elemento. El margen es el espacio que hay alrededor de la caja.*/
+	padding: 0px;/*Esta propiedad declara el relleno de un elemento. El relleno es el espacio entre el contenido del elemento y los límites de su caja.*/
+	color: #141414;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+h1{
+	font-size: 2rem;
+	font-weight: 700;
+}
+h2{
+	font-size: 1.2rem;
+}
+h3{
+	font-size: 0.5rem;
+}
+section{
+	background: #F6F7EB;
+	border-bottom: 1px solid #92B4F4;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+section div.contenido{
+	width: auto;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*General*/
+
+
+/*header*/
+header{
+	background-color: #393E41;/* Esta propiedad asigna un fondo de color a un elemento.*/
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+div.Logo{
+	text-align: center;
+}
+/*header*/
+
+
+/*FOOTER*/
+.Pief{
+  background-color: #393E41;/* Esta propiedad asigna un fondo de color a un elemento.*/
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+.Pief p{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.Pief img{
+	 width: 40%;
+    height: auto;
+    border: 2px;
+    position: relative;
+}
+.Izquierda{
+	float: left;
+}
+.Derecha{
+	float: right;
+}
+.FlotanteTexto{
+	width: 90%;
+}
+.FlotanteImagen{
+	width: 10%;
+}
+/*FOOTER*/
+
+
+/*div class="contenido"*/
+.izquierda{
+	float: left;
+}
+.derecha{
+	float: right;
+}
+.flotanteTexto{
+	width: 55%;
+}
+.flotanteImagen{
+	width: 30%;
+}
+/*div class="contenido"*/
+
+
+/*Sobre nosotros*/
+.Sobre img{
+	 width: 70%;
+    height: auto;
+    border: 0;
+    position: relative;
+}
+.Sobre h1{
+	font-weight: 600;
+	font-size: 50px;
+}
+.Sobre p{
+	font-weight: 200;
+	font-size: 25px;
+}
+
+.Sobre #boton{
+	text-decoration:none;
+	font-weight: 600;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-bottom: 18px;
+	padding-left: 17px;
+	padding-right: 17px;
+	background-color: #F49097;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 35px;
+}
+
+.Sobre #boton:hover{
+	cursor: pointer;
+	background: #EE7674;
+}
+/*Sobre nosotros*/
+
+/*Seccion Productos*/
+.Productos h1{
+	text-align: center;
+}
+.Productos h2{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: normal;
+}
+.Productos p{
+	text-align: justify;
+	font-size: 18px;
+	font-weight: 200;
+	font-style: italic;
+}
+#cajapadre {
+   display: flex;
+   width: auto;
+}
+#cajapadre > div {
+   margin: 12px;
+   background-color: #92B4F4;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;*/
+}
+#caja-1 {
+   flex: 2;
+}
+#caja-2 {
+   flex: 2;
+}
+#caja-3 {
+   flex: 2;
+}
+#caja-4 {
+   flex: 2;
+}
+
+.Productos #boton {
+   text-decoration:none;
+   font-weight: 600;
+   font-size: 12px;
+   padding-top: 12px;
+   padding-bottom: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   background-color: #F49097;
+   border-width: 3px;
+   border-style: solid;
+   border-radius: 35px;
+}
+.Productos #boton:hover{
+	cursor: pointer;
+	background: #EE7674;
+}
+/*Seccion Productos*/
+
+
+/*Seccion Contacto*/
+.Contactos h1{
+	text-align: center;
+}
+.Contactos h2{
+	text-align: center;
+}
+.Contactos p{
+	text-align: center;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+#Cajapadre {
+   display: flex;
+   width: 800px;
+}
+#Cajapadre > div {
+   height: 120px;
+   margin: 10px;
+}
+#Caja-1 {
+   flex: 1;
+}
+#Caja-2 {
+   flex: 1;
+}
+#Caja-3 {
+   flex: 1;
+}
+#Caja-4 {
+   flex: 1;
+}
+.Contactos img{
+	width: 60%;
+	height: auto;
+	border: 0;
+	position: relative;
+}
+/*Seccion Contacto*/
+
+/*Seccion Ubicacion*/
+.Ubicacion h1{
+	text-align: center;
+}
+.Ubicacion p{
+	text-align: center justify;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+}
+/*Seccion Ubicacion*/

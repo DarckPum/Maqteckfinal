@@ -1,0 +1,252 @@
+/*General*/
+*{
+	margin: 0px;/*Esta propiedad declara el margen de un elemento. El margen es el espacio que hay alrededor de la caja.*/
+	padding: 0px;/*Esta propiedad declara el relleno de un elemento. El relleno es el espacio entre el contenido del elemento y los límites de su caja.*/
+	color: #141414;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+h1{
+	font-size: 2rem;
+	font-weight: 200;
+	text-align: justify;
+}
+h2{
+	font-size: 1.5rem;
+	font-weight: 100;
+	text-align: justify;
+}
+p{
+	font-size: 1rem;
+	text-align: justify;
+}
+section{
+	background: #F6F7EB;
+	border-bottom: 1px solid #92B4F4;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+section div.contenido{
+	width: auto;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*General*/
+
+
+/*header*/
+header{
+	background-color: #393E41;/* Esta propiedad asigna un fondo de color a un elemento.*/
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+div.Logo{
+	text-align: center;
+}
+/*header*/
+
+
+/*FOOTER*/
+.Pief{
+  background-color: #393E41;/* Esta propiedad asigna un fondo de color a un elemento.*/
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+.Pief p{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.Pief img{
+	 width: 40%;
+    height: auto;
+    border: 2px;
+    position: relative;
+}
+.Izquierda{
+	float: left;
+}
+.Derecha{
+	float: right;
+}
+.FlotanteTexto{
+	width: 80%;
+}
+.FlotanteImagen{
+	width: 10%;
+}
+/*FOOTER*/
+
+/*div class="contenido"*/
+.izq {
+	float: left;
+}
+.der {
+	float: right;
+}
+.floTex {
+	width: 55%;
+}
+.floImg {
+	width: 45%;
+}
+/*div class="contenido"*/
+
+/*QS*/
+.QS h1{
+	text-align: center;
+	font-size: 28px;
+	font-family: 700;
+}
+.QS p{
+	text-align: center;
+	font-size: 24px;
+	font-family: 500;
+}
+.QS img{
+	width: 80%;
+  height: auto;
+  border-radius: 10% 10% 10% 10% / 10% 10% 10% 10% ;
+  position: relative;
+}
+/*QS*/
+
+/*IE*/
+.cen{
+	width: 80%;
+	text-align: center;
+}
+.IE h1{
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 700;
+}
+.IE h2{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 400;
+}
+.IE h3{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+}
+.IE span{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: normal;
+}
+/*IE*/
+
+/*ME*/
+.ME h1{
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 700;
+}
+.ME h2{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 400;
+}
+/*ME*/
+
+/*VE*/
+.VE h1{
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 700;
+}
+.VE h2{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 400;
+}
+/*VE*/
+
+/*OE*/
+.OE h1{
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 700;
+}
+.OE h2{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 400;
+}
+/*OE*/
+
+/*PE*/
+.PE h1{
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 700;
+}
+.PE h2{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 400;
+}
+/*PE*/
+
+/*VCE*/
+.VCE h1{
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 700;
+}
+.VCE h2{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 400;
+	font-style: italic;
+}
+.VCE span{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 600;
+	font-style: normal;
+}
+/*VCE*/
+
+/*PHC*/
+.PHC h1{
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 700;
+}
+.PHC h2{
+	text-align: justify;
+	font-size: 25px;
+	font-weight: 400;
+}
+/*PHC*/
+
+/*Boton para regresar*/
+#bot {
+	text-decoration:none;
+	font-weight: 600;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-bottom: 18px;
+	padding-left: 17px;
+	padding-right: 17px;
+	background-color: #F49097;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 35px;
+}
+#boton:hover {
+	cursor: pointer;
+	background: #EE7674;
+}
+/*Boton para regresar*/

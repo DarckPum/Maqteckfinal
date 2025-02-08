@@ -1,0 +1,244 @@
+/*General*/
+*{
+	margin: 0px;/*Esta propiedad declara el margen de un elemento. El margen es el espacio que hay alrededor de la caja.*/
+	padding: 0px;/*Esta propiedad declara el relleno de un elemento. El relleno es el espacio entre el contenido del elemento y los límites de su caja.*/
+	color: #141414;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+h1{
+	font-size: 2rem;
+	font-weight: 700;
+}
+h2{
+	font-size: 1.2rem;
+}
+h3{
+	font-size: 0.5rem;
+}
+section{
+	background: #F6F7EB;
+	border-bottom: 1px solid #92B4F4;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+section div.contenido{
+	width: auto;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*General*/
+
+/*header*/
+header{
+	background-color: #393E41;/* Esta propiedad asigna un fondo de color a un elemento.*/
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+div.Logo{
+	text-align: center;
+}
+/*header*/
+
+/*FOOTER*/
+.Pief{
+  background-color: #393E41;/* Esta propiedad asigna un fondo de color a un elemento.*/
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+.Pief p{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.Pief img{
+	 width: 40%;
+    height: auto;
+    border: 2px;
+    position: relative;
+}
+.Izquierda{
+	float: left;
+}
+.Derecha{
+	float: right;
+}
+.FlotanteTexto{
+	width: 90%;
+}
+.FlotanteImagen{
+	width: 10%;
+}
+/*FOOTER*/
+
+/*div class="contenido"*/
+.izq {
+	float: left;
+}
+.der {
+	float: right;
+}
+.floTex {
+	width: 49%;
+	text-align:center;
+}
+.floImg {
+	width: 51%;
+	text-align: center;
+}
+.cen{
+	width: 80%;
+	text-align: center;
+}
+/*div class="contenido"*/
+
+/*IM*/
+.IM h1{
+	text-align: center;
+	font-size: 28px;
+	font-family: 700;
+}
+/*IM*/
+
+/*Res*/
+.Res h1{
+	text-align: center;
+	font-size: 28px;
+	font-family: 700;
+}
+.Res h2{
+	text-align: center;
+	font-size: 20px;
+	font-family: 400;
+}
+/*Res*/
+
+/*IPF*/
+.Abajo h3 {
+	text-align: center;
+	font-size: 28px;
+	font-family: 700;
+}
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 40s;
+
+/*Animation*/
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+/*Styling*/
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 960px;
+}
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
+
+.Arriba h3 {
+	text-align: center;
+	font-size: 28px;
+	font-family: 700;
+}
+/*IPF*/
+
+/*Seccion Contacto*/
+.Contactos h1{
+	text-align: center;
+}
+.Contactos h2{
+	text-align: center;
+}
+.Contactos p{
+	text-align: center;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+#Cajapadre {
+   display: flex;
+   width: 800px;
+}
+#Cajapadre > div {
+   height: 120px;
+   margin: 10px;
+}
+#Caja-1 {
+   flex: 1;
+}
+#Caja-2 {
+   flex: 1;
+}
+#Caja-3 {
+   flex: 1;
+}
+#Caja-4 {
+   flex: 1;
+}
+.Contactos img{
+	width: 60%;
+	height: auto;
+	border: 0;
+	position: relative;
+}
+/*Seccion Contacto*/
+
+/*Boton para regresar*/
+#bot {
+	text-decoration:none;
+	font-weight: 600;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-bottom: 18px;
+	padding-left: 17px;
+	padding-right: 17px;
+	background-color: #F49097;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 35px;
+}
+#boton:hover {
+	cursor: pointer;
+	background: #EE7674;
+}
+/*Boton para regresar*/
